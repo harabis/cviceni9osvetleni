@@ -7,7 +7,7 @@
 // Constructor, opening file, reading header and calling vertex listing function
 PLYformatreader::PLYformatreader(string filename, lightType light) : light(light) {
 
-	// if true, also vertex normals are computed	
+	
 	if (light) {
 		cout << "Vertex normals will be computed" << endl;
 	}
